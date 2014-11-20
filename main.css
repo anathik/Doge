@@ -1,0 +1,69 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+.TheButton{
+    text-align: center;
+    position: inherit;
+    top: 20%;
+    
+}
+
+.TheButton button {
+    background-color: #aaa;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border: 2px solid #009900;
+    padding: 5px;border:4px solid #9f9f9f;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    text-shadow: 2px 1px 1px #000;
+    width: 24em;
+    margin: auto 0;
+    align-items: center;
+    
+}
+.TheButton button:hover {
+    background-color: #9f9f9f ;
+}
+.Main
+{
+margin: 0%;
+background-image: url('http://1.bp.blogspot.com/-QZScgcWodAg/UZu0R2DaJOI/AAAAAAAAAIw/57rwaNQNyx8/s1600/Sunrise+landscape+render+retouches.png;');
+height: 100vh;
+    
+}   
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.Main li {
+    display: inline;
+    border: red;
+}
+
+.TheDoge {
+    background-image: url('https://lh6.ggpht.com/Gg2BA4RXi96iE6Zi_hJdloQAZxO6lC6Drpdr7ouKAdCbEcE_Px-1o4r8bg8ku_xzyF4y=h900');
+    visibility: hidden;
+    height: 25em;
+    width: 29em;
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    
+}
+
+.DogeExplosion {
+    background-image: url('http://media.giphy.com/media/btJ5C3ZuhGwMw/giphy.gif');
+    visibility: hidden;
+    height: 18em;
+    width: 38em;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
